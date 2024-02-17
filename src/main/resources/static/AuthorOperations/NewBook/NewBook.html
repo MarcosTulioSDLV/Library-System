@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library System (New Book)</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style-NewBook.css">
+</head>
+<body>
+    <div class="banner">
+        <h1>Library System</h1>
+        <h2>New Book</h2>
+    </div>
+    <div class="newBookDiv">
+        <h3>Book Information</h3>
+        <form id="newBookForm" method="POST">
+            <label for="isbnText">ISBN:</label>
+            <input type="text" id="isbnText" name="isbnText" >
+            <label for="nameText">Name:</label>
+            <input type="text" id="nameText" name="nameText" >
+            <label for="editionText">Edition:</label>
+            <input type="text" id="editionText" name="editionText" >
+            <label for="yearText">Year:</label>
+            <input type="text" id="yearText" name="yearText" >
+            <div class="buttonContainer">
+                <button type="submit">Save</button>
+                <button type="button" id="backButton">Back</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="footer">
+        &copy; 2023 MarcosTulioSDLV | Powered by
+        <a href="#">MarcosTulioSDLV</a>
+    </div>
+    <script src="js/script-NewBook.js"></script>
+</body>
+</html>

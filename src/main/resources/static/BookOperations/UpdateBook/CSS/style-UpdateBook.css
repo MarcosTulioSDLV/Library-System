@@ -1,0 +1,115 @@
+h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 10px 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0;
+    padding: 10px 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-color: #01685c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Estilos para el formulario de actualización de libros */
+.updateDiv {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    /*margin: 20px;*/
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 20px auto; /* Centrar horizontalmente */
+}
+
+.updateDiv h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.updateDiv label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.updateDiv input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.updateDiv button[type="submit"] {
+    background-color: #01685c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.updateDiv button[type="submit"]:hover {
+    background-color: #038675;
+}
+
+.button-container {
+    text-align: center; /* Alinea los botones a la derecha */
+}
+
+#backButton {
+    background-color: #01685c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px; /* Agrega un margen izquierdo para separarlo de otros elementos */
+}
+
+#backButton:hover {
+    background-color: #038675;
+}
+
+/* Estilos para el pie de página */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #01685c;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para los enlaces en el pie de página */
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

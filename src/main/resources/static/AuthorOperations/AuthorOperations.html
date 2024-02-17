@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library System (Authors)</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style-AuthorOperations.css">
+</head>
+<body>
+    
+    <div class="banner">
+        <h1>Library System</h1>
+        <h2>Authors</h2>
+    </div>
+
+    <div class="searchContainer">
+        <label for="searchText" id="searchLabel">Search By Name:</label>
+        <input type="text" id="searchText" name="searchText">
+        <button type="button" id="searchButton" class="searchButton">Ok</button>
+    </div>
+
+    <div class="showAllAuthorsContainer">
+        <button type="button" id="newAuthorButton" class="newAuthorButton">New Author</button>
+        <button type="button" id="showAllAuthorsButton" >Show All Authors</button>
+    </div>
+
+    <div class="paginationTextContainer">
+        <span id="paginationText" class="paginationText">Pagination Text</span>
+    </div>
+
+    <table class="tableAuthors">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Select</th>
+            </tr>
+        </thead>
+        <tbody>
+         
+        </tbody>
+    </table>
+    <div class="pagination">
+        <button id="prevPage" class="prevPage">Previous</button>
+        <button id="nextPage" class="nextPage" >Next</button>
+    </div>
+
+    <div class="authorOperationsContainer">
+        <button type="button" id="updateAuthorButton" >Update Author</button>
+        <button type="button" id="removeAuthorButton" >Remove Author</button>
+    </div>
+
+    <div class="bookOperationsContainer">
+        <button type="button" id="backButton" class="backButton">Back</button>
+        <button type="button" id="seeBooksButton" >See Books</button>
+        <button type="button" id="newBookButton" >New Book</button>
+    </div>
+
+    <div class="footer">
+        &copy; 2023 MarcosTulioSDLV | Powered by
+        <a href="#">MarcosTulioSDLV</a>
+    </div>
+    <script src="js/script-AuthorOperations.js"></script>
+</body>
+</html>

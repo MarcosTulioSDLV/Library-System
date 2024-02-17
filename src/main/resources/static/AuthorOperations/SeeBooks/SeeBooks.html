@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library System (Authors)</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style-SeeBooks.css">
+</head>
+<body>
+    
+    <div class="banner">
+        <h1>Library System</h1>
+        <h2>Author's Books</h2>
+    </div>
+
+    <div class="authorTextContainer" id="authorTextContainer">
+        <h2 id="authorText">Author: </h2>  
+    </div>  
+
+    <div class="paginationTextContainer">
+        <span id="paginationText" class="paginationText">Pagination Text</span>
+    </div>
+
+    <table class="tableBooks">
+        <thead>
+            <tr>
+                <th>ISBN</th>
+                <th>Name</th>
+                <th>Edition</th>
+                <th>Year</th>
+                <th>Select</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+    <div class="pagination">
+        <button id="prevPage" class="prevPage">Previous</button>
+        <button id="nextPage" class="nextPage" >Next</button>
+    </div>
+
+ 
+    <div class="bookOperationsContainer">
+        <button type="button" id="backButton" class="backButton">Back</button>
+        <button type="button" id="updateBookButton" class="updateBookButton">Update Book</button>
+        <button type="button" id="removeBookButton" class="removeBookButton">Remove Book</button>
+    </div>
+
+    <div class="footer">
+        &copy; 2023 MarcosTulioSDLV | Powered by
+        <a href="#">MarcosTulioSDLV</a>
+    </div>
+    <script src="js/script-SeeBooks.js"></script>
+</body>
+</html>

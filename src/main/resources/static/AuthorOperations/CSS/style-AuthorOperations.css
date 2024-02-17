@@ -1,0 +1,182 @@
+h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 10px 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0;
+    padding: 10px 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-color: #073e7a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.searchContainer {
+    text-align: right;
+
+    width: 80%;
+    margin: 20px auto;
+}
+
+.searchButton {
+    background-color: #073e7a;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.searchButton:hover {
+    background-color: #356194;
+}
+
+.showAllAuthorsContainer, .paginationTextContainer {
+    text-align: right;
+    width: 80%;
+    margin: 20px auto;
+
+    overflow: hidden; /* Agregamos esto para que el contenedor contenga los elementos flotantes */
+}
+
+/* Estilos para el botón "Select Book" */
+.showAllAuthorsContainer  button[type="button"]  {
+    background-color: #073e7a;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.showAllAuthorsContainer button[type="button"]:hover{
+    background-color: #356194;
+}
+
+.newAuthorButton, .paginationText{
+    float: left;
+}
+
+.paginationText {
+    font-weight: bold;
+}
+
+
+.tableAuthors {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 20px; /* Add border-radius property here */
+    overflow: hidden; /* This ensures that rounded corners are fully visible */
+
+    /* Agrega la transición de opacidad para suavizar los cambios */
+    transition: opacity 0.1s ease; /* Ajusta la duración y la función de temporización según sea necesario, colocar el mismo valor del temporizador 0,1s = 100 milisegungos*/
+}
+
+
+.tableAuthors th,
+.tableAuthors td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.tableAuthors th {
+    background-color: #073e7a;
+    color: #fff;
+}
+
+
+.pagination {
+    text-align: center; /* Centra los botones horizontalmente */
+}
+
+.pagination .prevPage,.pagination .nextPage {
+    background-color: #073e7a;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 5%; /* Ancho en porcentaje para los botones de navegación */
+}
+
+.pagination .prevPage:hover,.pagination .nextPage:hover{
+    background-color: #356194;
+}
+
+.pagination .prevPage:disabled,.pagination .nextPage:disabled {
+    background-color: #ccc; /* Cambia el color de fondo a uno gris para indicar desactivación */
+    color: #888; /* Cambia el color de texto a uno más claro */
+    cursor: not-allowed; /* Cambia el cursor a "no permitido" para indicar que no se puede hacer clic */
+}
+
+.authorOperationsContainer,.bookOperationsContainer {
+    text-align: right;
+    width: 80%;
+
+    overflow: hidden;/* Agregamos esto para que el contenedor contenga los elementos flotantes */
+}
+
+.authorOperationsContainer{
+    margin: 20px auto 5px auto;
+}
+
+.bookOperationsContainer {
+    margin: 5px auto 20px auto;
+}
+
+.authorOperationsContainer button[type="button"],
+.bookOperationsContainer button[type="button"] {
+    background-color: #073e7a;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.authorOperationsContainer button[type="button"]:hover,
+.bookOperationsContainer button[type="button"]:hover {
+    background-color: #356194;
+}
+
+.backButton {
+    float: left;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #073e7a;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para los enlaces en el pie de página */
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

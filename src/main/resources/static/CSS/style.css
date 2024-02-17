@@ -1,0 +1,93 @@
+h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 10px 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0;
+    padding: 10px 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-color: rgb(70, 58, 58);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para el contenedor de los botones */
+
+.bookOperations {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 20%; 
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+
+    /*align-items: center;*/
+}
+
+.bookOperations h3 {
+    font-size: 24px; 
+    margin: 20px; 
+}
+
+.bookOperations button[type="button"] {
+    background-color: rgb(70, 58, 58);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    /*margin: 10px;*/
+    /*width: 100%;*/
+    margin: 10px auto;
+    width: 50%;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.bookOperations button[type="button"]:hover {
+    background-color: rgb(94, 80, 80);
+}
+
+
+
+
+/* Estilos para el pie de página */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(70, 58, 58);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para los enlaces en el pie de página */
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
