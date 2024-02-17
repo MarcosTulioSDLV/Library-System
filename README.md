@@ -1,7 +1,7 @@
 # Library System
 I developed a Web Application to manage books and his authors in a library. This system allows to store book information such name, ISBN (only ISBN-13 format accepted), edition, and year and also author information such name, last name and email.
 
-![LibrarySystem_Img](https://www.dropbox.com/scl/fi/8uay2uewd7acrhcft44cz/LibrarySystem_Img1.png?rlkey=vy1n8kdsv62b5c27un234q4mz&dl=0?raw=1)
+![LibrarySystem_Img](https://www.dropbox.com/scl/fi/8uay2uewd7acrhcft44cz/LibrarySystem_Img1.png?rlkey=vy1n8kdsv62b5c27un234q4mz&dl=0)
 
 # Library System Rest API (Backend)
 The Backend was powered by a Rest API by using springboot and java.
