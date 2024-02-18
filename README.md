@@ -7,7 +7,7 @@ I developed a Web Application to manage books and his authors in a library. This
 
 # Library System Rest API (Backend)
 The Backend was powered by a Rest API by using springboot and java.
-I used some common libraries for this Rest API such Spring Web, Spring Data JPA, Validation, H2 Database and SpringFox Boot Starter 3.0.0 (for the API documentation).
+I used some common libraries for this Rest API such Spring Web, Spring Data JPA, Validation, H2 Database and SpringFox Boot Starter 3.0.0 (for the API documentation with Swagger).
 
 Spring validation was used to validate the book and author attributes, setting the book to accept ISBN only with ISBN-13 format, positive numbers for year, ensuring no blank attributes, and on the other hand, setting the author to accept only email on right format and ensuring no blank attributes.
 
