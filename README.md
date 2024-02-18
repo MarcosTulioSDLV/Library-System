@@ -1,7 +1,7 @@
 # Library System
 I developed a Web Application to manage books and his authors in a library. This system allows to store book information such name, ISBN (only ISBN-13 format accepted), edition, and year and also author information such name, last name and email.
 
-![LibrarySystem_Img](https://www.dropbox.com/scl/fi/8uay2uewd7acrhcft44cz/LibrarySystem_Img1.png?rlkey=vy1n8kdsv62b5c27un234q4mz&dl=0)
+![LibrarySystem_Img](https://github.com/MarcosTulioSDLV/Library-System/assets/41268178/573b4109-d0fa-4b00-b213-0a2fec090ea3)
 
 [See Video!](https://www.youtube.com/watch?v=bYUE_2XaKh4&t=10s)
 
