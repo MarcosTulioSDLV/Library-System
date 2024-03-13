@@ -14,11 +14,11 @@ I used some common libraries for this Rest API such Spring Web, Spring Data JPA,
 Spring validation was used to validate the book and author attributes, setting the book to accept ISBN only with ISBN-13 format, positive numbers for year, ensuring no blank attributes, and on the other hand, setting the author to accept only email on right format and ensuring no blank attributes.
 
 ## Database Config: 
-For test this API, an external database is not necessary because an embedded database (H2 Database) was used with the following configuration properties:
+For test this API, an external Database is not necessary because an embedded Database (H2 Database) was used with the following configuration properties:
 
-- name: library_db
-- user name: sa
-- password:
+- Name: library_db
+- Username: sa
+- Password:
 
 ## Development Tools:
 This Rest API was powered with:
