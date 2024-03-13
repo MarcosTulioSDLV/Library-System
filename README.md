@@ -29,7 +29,7 @@ This Rest API was built with:
 # Fronted
 
 ## Development Tools:
-The Fronted was built by using:
+The Fronted was built with:
 - HTML
 - CSS
 - Vanilla JavaScript.
