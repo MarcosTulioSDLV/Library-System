@@ -8,7 +8,7 @@ I developed a Web Application to manage books and his authors in a library. This
 [See Video!](https://www.youtube.com/watch?v=bYUE_2XaKh4&t=10s)
 
 # Library System Rest API (Backend)
-The Backend was powered by a Rest API by using **Spring Boot and java.
+The Backend was built by a Rest API by using **Spring Boot and java.
 I used some common libraries for this Rest API such Spring Web, Spring Data JPA, Validation, H2 Database and SpringFox Boot Starter 3.0.0 (for the API documentation with Swagger)**.
 
 Spring validation was used to validate the book and author attributes, setting the book to accept ISBN only with ISBN-13 format, positive numbers for year, ensuring no blank attributes, and on the other hand, setting the author to accept only email on right format and ensuring no blank attributes.
@@ -21,7 +21,7 @@ For test this API, an external Database is not necessary because an embedded Dat
 - Password:
 
 ## Development Tools:
-This Rest API was powered with:
+This Rest API was built with:
 
 - Spring Boot version: 2.7.15
 - Java version: 1.8
@@ -29,7 +29,7 @@ This Rest API was powered with:
 # Fronted
 
 ## Development Tools:
-The Fronted was powered by using:
+The Fronted was built by using:
 - HTML
 - CSS
 - Vanilla JavaScript.
