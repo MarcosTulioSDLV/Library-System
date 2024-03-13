@@ -19,7 +19,7 @@ For test this API, an external database is not necessary because an embedded dat
 - name: library_db
 - user name: sa
 - password:
-- 
+
 ## Development Tools:
 This Rest API was powered with:
 
